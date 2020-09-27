@@ -1,0 +1,31 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+span.buttonSpan {
+    position: absolute;
+    right: 8px;
+}
+
+span button .delete {
+    border: 0;
+    background: bottom;
+    font-size: 19px;
+    color: #f00;
+}
+span button{
+    border: 0;
+    background: bottom;
+}
+span button .edit {
+
+    font-size: 19px;
+    color: #20f338;
+}
+.image-file-upload {
+    opacity: 0;
+}
